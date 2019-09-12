@@ -1,0 +1,202 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body, html {
+
+    height: 100%;
+
+}
+
+/* Menu superior */
+
+header {
+
+    z-index: 3;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+
+}
+
+nav {
+
+    position: relative;
+    width: 90%;
+    margin: 0px auto;
+    height: 80px;
+
+}
+
+nav ul {
+
+    list-style: none;
+    position: absolute;
+    right: 0px;
+    text-decoration: none;
+
+}
+
+nav ul li {
+
+    display: inline;
+    line-height: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+
+}
+
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+    padding: 3px 8px;
+
+}
+
+nav ul li a:hover {
+
+    border-bottom: 1px solid green;
+    color: green;
+
+}
+
+nav img {
+
+    float: left;
+    width: 80px;
+
+}
+
+/* Conteudo */
+#conteudo {
+    position: relative;
+    background: url(../imagens/ss_1d30c9a215fd621e2fd74f40d93b71587bf6409c.1920x1080.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    z-index: 2;
+    margin-bottom: 80px;
+
+}
+
+#sobre #conteudo {
+    position: relative;
+    background: url(../imagens/lol_proplayers.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    z-index: 2;
+    margin-bottom: 80px;
+
+}
+
+#contato #conteudo {
+    position: relative;
+    background: white url(../imagens/contato.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    z-index: 2;
+    margin-bottom: 80px;
+
+}
+/*
+#contato #conteudo img {
+
+    position: absolute;
+    top: 80px;
+    left: -50%;
+
+}*/
+
+#conteudo-box {
+
+    width: 920px;
+    margin: 0px auto;
+
+}
+
+#conteudo #texto {
+
+    position: absolute;
+    color: white;
+    right: 25%;
+    top: 40%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 80px;
+
+}
+
+#conteudo #form {
+
+    position: relative;
+    /* right: 20%; */
+    margin: 0px auto;
+    top: 140px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+fieldset {
+
+    padding: 10px;
+    background: rgba(26, 26, 26, 0.2);
+    border: none;
+
+}
+
+fieldset * {
+
+    margin: 3px;
+
+}
+
+#contato input[type="submit"] {
+
+    padding: 5px 8px;
+    position: relative;
+    margin: 0px auto;
+
+}
+
+#texto h3 {
+
+    font-size: 1.6em;
+    text-shadow: 1px 1px black;
+
+}
+
+#texto p {
+
+    text-shadow: 1px 1px black;
+
+}
+
+/* Footer */
+
+footer {
+
+    background: rgb(31, 31, 31);
+    height: 80px;
+    width: 100%
+
+}
+
+nav#footer {
+
+    line-height: 80px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+footer {
+
+    position: fixed;
+    bottom: 0;
+
+}
